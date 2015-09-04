@@ -1,0 +1,127 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 8:14:24 Oct 7, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:14:38 Sep 4, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/**
+ * Cascading Style Sheet for GSA Suggest.
+ */
+
+/* Classes for suggestion box */
+
+.ss-gac-m {
+  background: white;
+  border: 1px solid black;
+  cursor: default;
+  font-size: 1em;
+  line-height: 17px;
+  margin: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+.ss-gac-b {
+  background: #36c;
+  color: white;
+}
+
+.ss-gac-c {
+  overflow: hidden;
+  padding-left: 3px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ss-gac-d {
+  color: green;
+  font-size: 10px;
+  overflow: hidden;
+  padding: 0 3px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.ss-gac-b td {
+  color: white;
+}
+
+.ss-gac-e td {
+  font-size: 10px;
+  line-height: 15px;
+  padding: 0 3px 2px;
+  text-align: right;
+}
+
+.ss-gac-e span {
+  color: #00c;
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+/* Debug console */
+
+div#ss_debug_console {
+  background: #ffefef;
+  border: 1px solid #cf7f7f;
+  bottom: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 83%;
+  height: 60%;
+  left: 5%;
+  opacity: 0.95;
+  overflow: auto;
+  padding: 0.5em;
+  position: absolute;
+  width: 90%;
+  z-index: 5000;
+}
+
+div#ss_debug_console.expanded {
+  height: 60%;
+}
+
+div#ss_debug_console.contracted {
+  height: 8%;
+}
+
+div#ss_debug_console h1 {
+  color: #af0000;
+  display: inline;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+div#ss_debug_console button {
+  margin: 0em 0.5em;
+}
+
+div#ss_debug_console table {
+  border-collapse: collapse;
+  font-size: 90%;
+  line-height: 120%;
+  margin-top: 1em;
+}
+
+div#ss_debug_console table th {
+  padding: 0.2em 1em;
+  text-align: left;
+}
+
+div#ss_debug_console table td {
+  border-top: 1px solid #cf7f7f;
+  padding: 0.2em 1em;
+}
+
+div#ss_debug_console table td.no {
+  text-align: right;
+}

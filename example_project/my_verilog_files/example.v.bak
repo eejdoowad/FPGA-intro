@@ -1,0 +1,8 @@
+module example(SW, LEDR);
+    parameter SIZE = 8;
+	 
+    input [SIZE - 1 : 0] SW;
+	 output [SIZE - 1 : 0] LEDR;
+	 
+	 assign LEDR[SIZE - 1 : 0] = ~SW[SIZE - 1 : 0];
+endmodule
