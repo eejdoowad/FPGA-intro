@@ -24,7 +24,8 @@ module example(SW, LEDR);
 	// Both files have to be added to the project, or compilation will fail
 	my_and bobert(SW[4], SW[5], LEDR[4]);
 	my_xor thefrog(SW[5], SW[6], LEDR[5]);
-	inverter issad(SW[6], LEDR[6]);
+	// You can explicitly name your parameters
+	inverter issad(.in(SW[6]), .out(LEDR[6]));
 
 	// Multibit constant assignment. Again, don't forget assign.
 	assign LEDR[9 : 7] = 3'b101;
