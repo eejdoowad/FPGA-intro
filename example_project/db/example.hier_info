@@ -1,0 +1,40 @@
+|example
+SW[0] => LEDR[0].DATAIN
+SW[1] => LEDR[1].DATAIN
+SW[2] => LEDR[2].DATAIN
+SW[3] => LEDR[3].DATAIN
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN2
+SW[6] => SW[6].IN2
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= my_and:bobert.port2
+LEDR[5] <= my_xor:thefrog.port2
+LEDR[6] <= inverter:issad.out
+LEDR[7] <= <VCC>
+LEDR[8] <= <GND>
+LEDR[9] <= <VCC>
+
+
+|example|my_and:bobert
+a => out.IN0
+b => out.IN1
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|example|my_xor:thefrog
+a => out.IN0
+b => out.IN1
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|example|inverter:issad
+in => out.DATAIN
+out <= in.DB_MAX_OUTPUT_PORT_TYPE
+
+

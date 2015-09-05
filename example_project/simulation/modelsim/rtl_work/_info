@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\eejdo_000\Documents\Git\FPGA Intro\example_project\simulation\modelsim
+vexample
+I4`m^>nHA62^@NlIJ=Fm<`3
+Vhh5FeS`bPRB1H]F[JO_BP0
+Z1 dC:\Users\eejdo_000\Documents\Git\FPGA Intro\example_project\simulation\modelsim
+Z2 w1441477406
+Z3 8C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/example.v
+Z4 FC:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/example.v
+L0 10
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1441482407.669000
+Z7 !s107 C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/example.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files|C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/example.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files} -O0
+!i10b 1
+!s100 JS22XDg:E:RbgFVh`RCQz0
+!s85 0
+!s101 -O0
+vinverter
+I^clY8US>VHM2R=a2Me5`d0
+VDCW=mS`[`WV0mEP^=N@If1
+R1
+R2
+R3
+R4
+L0 38
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 >o?@HQDI:Me_VQZnzGLTC0
+!s85 0
+!s101 -O0
+vmy_and
+I2Ud^P:0O8ABFWz7`R=7zZ2
+V[=kUVEfl4DzF4k5BYfIF@3
+R1
+Z11 w1441403607
+Z12 8C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/more_stuff.v
+Z13 FC:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/more_stuff.v
+L0 8
+R5
+r1
+31
+Z14 !s108 1441482407.935000
+Z15 !s107 C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/more_stuff.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files|C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/more_stuff.v|
+R9
+R10
+!i10b 1
+!s100 2S5:[?SRmHDD3ag:gLLa<3
+!s85 0
+!s101 -O0
+vmy_xor
+IameoWb]2LSiF6aJk;A0gd3
+V2`OK?bajPVIaa@ZCZnKQW3
+R1
+R11
+R12
+R13
+L0 18
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 WVG]=9kLLi0OWQeAZmX[;0
+!s85 0
+!s101 -O0
+vxor_testbench
+!i10b 1
+!s100 X_RV@TQ`V?XHDYUoj69lk2
+Ij:U>HRXJTk:9NmbcdW_]21
+VGJLRn8znFjgKR>f>N43KA2
+R1
+w1441482321
+8C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/xor_testbench.v
+FC:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/xor_testbench.v
+L0 27
+R5
+r1
+!s85 0
+31
+!s108 1441482408.232000
+!s107 C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/xor_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project|C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/xor_testbench.v|
+!s101 -O0
+R9
+!s92 -vlog01compat -work work {+incdir+C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project} -O0

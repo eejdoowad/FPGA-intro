@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/eejdo_000/Documents/Git/FPGA\ Intro/example_project/my_verilog_files {C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/example.v}
+vlog -vlog01compat -work work +incdir+C:/Users/eejdo_000/Documents/Git/FPGA\ Intro/example_project/my_verilog_files {C:/Users/eejdo_000/Documents/Git/FPGA Intro/example_project/my_verilog_files/more_stuff.v}
+
