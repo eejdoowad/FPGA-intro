@@ -35,7 +35,7 @@ module xor_testbench;
 	wire out;
 
 	// Instantiate the Unit Under Test
-	my_xor imhungry(a, b, out);
+	my_xor imhungryandgiveextracreditforfood(a, b, out);
 
 	initial begin
 		// Initialize Inputs
